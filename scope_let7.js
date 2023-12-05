@@ -29,3 +29,5 @@ console.log("num from the global scope:",num);
     console.log("num value from IIFE:",num)
 })()
 console.log("num from the global scope:",num)
+
+//we can reinitalize the let variable in the same scope 
