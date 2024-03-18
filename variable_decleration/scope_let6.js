@@ -2,13 +2,14 @@ let num=10
 
 let result=function f()
 {
-    //console.log(num)//output:-10
+    //console.log(num)//error :- can not access before initialization
     let num=20
     console.log("num from name function expression:",num)
 }
 
-result()
 console.log("num from the global scope:",num)
+result()
+
 
 //same scope for function name expression
 
@@ -21,7 +22,7 @@ let result1=function()
 result1()
 console.log("num from the global scope:",num);
 
-// same behaviour for ananymous function expression
+// // same behaviour for ananymous function expression
 
 (function f3(){
     //console.log("num value from IIFE:",num) //reference error:- can not access before initialization

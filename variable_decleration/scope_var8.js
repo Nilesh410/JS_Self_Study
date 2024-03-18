@@ -4,7 +4,7 @@ console.log("num from the outside the function:",num)//access the global scope v
 let result=function ()
 {
     console.log("num from inside the function but before redeclare and initialize:",num)
-  //  var num
+    var num;
     console.log("num from inside the function:",num)
 }
 

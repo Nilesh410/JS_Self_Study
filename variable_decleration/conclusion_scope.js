@@ -1,19 +1,19 @@
 /*
 1) var 
    -> var is global scope and functional scope
-   -> we can access var variable before declerationa and initalization duw to hoisting
-   -> we can reinitalize var variable in same scope
-   -> we cna redeclare the var variable with same name in same scope
+   -> we can access var variable before decleration and initalization due to hoisting
+   -> we can reinitialize var variable in same scope
+   -> we can redeclare the var variable with same name in same scope
 
 2) let 
-   ->let has block scope 
+   -> let has block scope 
    -> block scope varible can not access before decleration due to TDZ
-   -> it can reinitalize in the same scope 
+   -> it can reinitialize in the same scope 
    -> but we can not redeclare in the same scope with same name
 
 3) const:-
-   ->same as let variable 
-   -> but only difference is we can reinitalize or change the value of const variable
+   -> same as let variable 
+   -> but only difference is we can not reinitalize or change the value of const variable
 
 Questions Related with the scoping:-
 1) what is scope of let, var and const variable
@@ -28,10 +28,5 @@ Questions Related with the scoping:-
 10) what is call stack?
 11) what is execution context?
 12) what is global execution context?
-
-
-
-
-
 
 */

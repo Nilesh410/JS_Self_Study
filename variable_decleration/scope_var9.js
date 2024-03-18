@@ -15,7 +15,7 @@ Conclusion :-
 2) u can redeclare in any type of function (function decleration, function expression) its 
    works similer
 3)u can access the var type of variable before its decleration bcoz of hoisting 
-4)if u dont declare but tru to access that then its shows reference error var variabel not defined
+4)if u dont declare but try to access that then its shows reference error var variabel not defined
 
 
 */

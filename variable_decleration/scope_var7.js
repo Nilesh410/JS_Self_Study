@@ -6,6 +6,6 @@ let result=function f()
     var num=20
     console.log("num from inside the function:",num)
 }
-f()//error f is not defined 
+//f()//error f is not defined 
 result() //function is execute
-console.log(result) //show function :f()
+console.log(result()) //show function :f()

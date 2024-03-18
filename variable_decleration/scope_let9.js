@@ -9,6 +9,7 @@
 // console.log(num)
 // var num=20
 // console.log(num)
+//Error:- num has already been declared 
 //one let and one var with same name does not allowed in the same scope 
 
 var num=20
