@@ -22,7 +22,7 @@ console.log(result1);
       -> as well as for function calling statement for that create new exection context and 
          its consist of new variale environment and execution thread
 
-    call stack :- In memory of process we have structure to manage function whatever we called 
+    call stack :- In memory process we have structure to manage function whatever we called 
     whenever we called the function, that function JS pushed into the call stack and finished its execution then 
     its pop from the call stack 
   */
