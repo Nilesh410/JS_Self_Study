@@ -1,4 +1,7 @@
 // Playing with NaN data type 
+// 0/0=>NaN
+//isfinite(NaN)=>false
+//isNaN(NaN)=>true
 
 function func()
 {
@@ -17,4 +20,21 @@ if(isNaN(result))
 { console.log("true result")}
 else{
     console.log("false result")
+}
+
+// 0/0 => what is the result in JS
+function zerodividebyzero()
+{
+    return(0/0)
+}
+
+const result1=zerodividebyzero()
+console.log("zero divide by zero in js=",result1)
+
+if(isFinite(result1))
+{
+    console.log("zero divide by zerod in js is Nan but its finite")
+}
+else{
+    console.log("zero divide by zero in js is NaN but also its not finite")
 }
