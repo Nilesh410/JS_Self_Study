@@ -28,10 +28,10 @@ console.log(typeof undefined) //output:- undefined
 
 
 //Null:- It means that the object is empty and isn't pointing to any memory address.
-console.log(1+null)
-console.log(1-null)
-console.log(1*null)
-console.log(1/null)
+console.log(1+null)//1
+console.log(1-null)//1
+console.log(1*null)//1
+console.log(1/null)//1
 console.log(typeof null)
 
 
