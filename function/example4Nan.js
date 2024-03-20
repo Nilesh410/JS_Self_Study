@@ -1,4 +1,4 @@
-// Playing with Nan data type 
+// Playing with NaN data type 
 
 function func()
 {
