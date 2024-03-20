@@ -41,10 +41,11 @@ function calculateaddition1(num1,num2)
 // console.log(result)
 //calculateaddition1(2,3)
 console.log(calculateaddition1(2,3))
-n
+
 /* 
 //Questions :-
 1)what are the different data types in JS
 2)what is the difference between Nan and null
-
+3)what is difference between function calling using functionname() and console.log(functionname()) 
+4)what are the different ways to define function in JS?
 */
