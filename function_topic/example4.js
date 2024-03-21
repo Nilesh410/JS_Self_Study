@@ -1,4 +1,4 @@
-//How to pass object as an argument to the function 
+//How to pass object and array as an argument to the function 
 
 function userDetails(userData)
 {
@@ -9,3 +9,10 @@ userDetails({
     username:"Nilesh",
     password:"1233"
 })
+
+function arrayElements(arrayData)
+{
+    console.log(arrayData)
+}
+
+arrayElements([12,23,45,24,6,9])
