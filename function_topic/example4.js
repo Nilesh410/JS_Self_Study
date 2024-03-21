@@ -15,4 +15,4 @@ function arrayElements(arrayData)
     console.log(arrayData)
 }
 
-arrayElements([12,23,45,24,6,9])
+arrayElements([12,23,45,24,6,9]) //[12,23,45,24,6,9]

@@ -1,6 +1,6 @@
 /* Que 1) what is function hoising ? 
 Ans:- calling the function before its declaration and definition and its execute the definition
-Function hoising is applicable only to function decleration not the function expression properties
+Function hoisting is applicable only to function decleration not the function expression properties
 */
 
 //1
