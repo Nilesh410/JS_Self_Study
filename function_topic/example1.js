@@ -98,7 +98,7 @@ myname("Nilesh") */
     console.log(`my name is ${name}`)
 })("Nilesh Shirude") */
 
-//5 
+//5 Constructor Function 
 
 let myname=new Function('name','console.log(`my name is ${name}`)')
 myname("NSS")
