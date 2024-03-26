@@ -25,4 +25,7 @@ console.log(result1);
     call stack :- In memory process we have structure to manage function whatever we called 
     whenever we called the function, that function JS pushed into the call stack and finished its execution then 
     its pop from the call stack 
+
+    Definiton:- Execution Context:- Browser JS engine ceates a speial environment to handle the transformation 
+                and execution of the JS code 
   */
