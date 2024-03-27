@@ -16,9 +16,9 @@ Nan -> number
 
 
 //1.Nan
-console.log(5*"NSS"); //Nan
-console.log(5-"NSS"); //Nan
-console.log(5/"NSS"); //Nan
+console.log(5*"NSS"); //NaN
+console.log(5-"NSS"); //NaN
+console.log(5/"NSS"); //NaN
 console.log(typeof NaN) //number
 
 //Undefined
