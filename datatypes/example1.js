@@ -5,6 +5,21 @@
     {
         function definition
     }
+    Different Data Types in JS 
+    Types:- 
+    A) Primitive Data Types 
+       -Numbers
+       -Bigint
+       -String
+       -undefined
+       -null
+       -boolean
+       -symbol
+
+    B) Non Primitive Data Types
+       - array
+       - object
+
  */
 
 //demo1
@@ -17,7 +32,7 @@
 // calculateaddition(2,'n') //output:- 2n string
 // calculateaddition(2,12.5) //output:- 14.5 number
 // calculateaddition(2,false) //output:- 2 number
-// calculateaddition(2,undefined) //output:- Nan number
+// calculateaddition(2,undefined) //output:- NaN number
 // calculateaddition(2,null) //output:- 2 number
 
 // //demo2

@@ -13,3 +13,4 @@ function showCartItemValues(item1,item2,...items)
 }
 
 showCartItemValues(100,200,300,400,500)
+//[300,400,500]

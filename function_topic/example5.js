@@ -2,7 +2,7 @@
    Ans:-  A function that returns a function or 
           takes other functions as arguments is called a higher-order function.
   Que:- which are the inbuilt functions are higher order function in JS
-  Ans:- map, filter, setTimeout
+  Ans:- every, map, filter, setTimeout
 
   Que :- what is call back function?
   Ans:- Function that pass to function as a argument then it is called as call back function 
