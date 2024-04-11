@@ -1,4 +1,4 @@
-//var can redelcare with same name and initalize withinn the same scope 
+//var can redelcare with same name and initalize within the same scope 
 console.log("num from the outside the function but before the decleration and initialize:",num)
 //output:-undefined
 var num=10 //global scope

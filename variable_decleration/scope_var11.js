@@ -1,8 +1,8 @@
 console.log("Study the scope of var variable");
-let a=20
+var a=5
 if(a>10)
 {
-    let num=10;
+    var num=10;
     console.log("value of num:",num);
 }
 else
