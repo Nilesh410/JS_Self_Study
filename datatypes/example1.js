@@ -23,23 +23,23 @@
  */
 
 //demo1
-// function calculateaddition(num1,num2)
-// {
-//    console.log("addition=",num1+num2);
-// }
-// calculateaddition(2,3)  //output:- 5 number
-// calculateaddition(2,"abc") //output:- 2abc string 
-// calculateaddition(2,'n') //output:- 2n string
-// calculateaddition(2,12.5) //output:- 14.5 number
-// calculateaddition(2,false) //output:- 2 number
-// calculateaddition(2,undefined) //output:- NaN number
-// calculateaddition(2,null) //output:- 2 number
+function calculateaddition(num1,num2)
+{
+   console.log("addition=",num1+num2);
+}
+/* calculateaddition(2,3)  //output:- 5 number
+calculateaddition(2,"abc") //output:- 2abc string 
+calculateaddition(2,'n') //output:- 2n string
+calculateaddition(2,12.5) //output:- 14.5 number
+calculateaddition(2,false) //output:- 2 number
+calculateaddition(2,undefined) //output:- NaN number
+calculateaddition(2,null) //output:- 2 number */
 
-// //demo2
-// console.log(typeof(undefined)) //type of undefined -> undefined
-// console.log(typeof(NaN)) //type of Nan -> number
-// console.log(typeof(null)) //type of null-> object
-// console.log(typeof(calculateaddition)) //type of function -> function 
+//demo2
+/* console.log(typeof(undefined)) //type of undefined -> undefined
+console.log(typeof(NaN)) //type of Nan -> number
+console.log(typeof(null)) //type of null-> object
+console.log(typeof(calculateaddition)) //type of function -> function  */
 
 
 
@@ -48,13 +48,13 @@ function calculateaddition1(num1,num2)
 {
    let result=num1+num2;
    console.log(result)
-   //return 
+   return 
    //return result
 }
 
-// let result=calculateaddition1(2,3) 
-// console.log(result)
-//calculateaddition1(2,3)
+let result=calculateaddition1(2,3) 
+console.log(result)
+calculateaddition1(2,3)
 console.log(calculateaddition1(2,3))
 
 /* 

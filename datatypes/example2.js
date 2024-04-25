@@ -16,23 +16,24 @@ Nan -> number
 
 
 //1.Nan
-console.log(5*"NSS"); //NaN
+/* console.log(5*"NSS"); //NaN
 console.log(5-"NSS"); //NaN
 console.log(5/"NSS"); //NaN
-console.log(typeof NaN) //number
+console.log(typeof NaN) //number */
 
 //Undefined
-let myname;
+/* let myname;
 console.log(myname); //output:- undefined
-console.log(typeof undefined) //output:- undefined
+console.log(typeof undefined) //output:- undefined */
 
 
 //Null:- It means that the object is empty and isn't pointing to any memory address.
 console.log(1+null)//1
 console.log(1-null)//1
-console.log(1*null)//1
-console.log(1/null)//1
+console.log(1*null)//0
+console.log(1/null)//infinity
 console.log(typeof null)
+console.log(null>=0)
 
 
 
