@@ -59,6 +59,7 @@ else
                     else
                     {
                         console.log("undefined is a falsy value")
+                        console.log("data");
                     }
                 }
             }
