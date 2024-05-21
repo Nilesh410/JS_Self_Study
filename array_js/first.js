@@ -22,3 +22,4 @@ console.log("arr2=",arr2);
 
 console.log(arr1.length);
 console.log(arr2.length);
+
