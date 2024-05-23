@@ -25,5 +25,14 @@ console.log(obj);
 // console.log(obj.emailid);
 // console.log(obj["name"]);
 // console.log(obj["address"]);
-console.log(obj.fullname);
-console.log(obj.info())
+// console.log(obj.fullname);
+// console.log(obj.info())
+
+obj.gender="Male";
+console.log(obj);
+obj={
+    country:"india",
+    state:"maharashtra"
+
+} //shows error due to reassign the constant variable 
+console.log(obj)

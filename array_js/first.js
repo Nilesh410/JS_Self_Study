@@ -8,7 +8,8 @@ Array method:-
 3.pop
 4.unshift
 5.shift
-6.
+6.join 
+7.
 */
 
 const arr1=[10,20,"ABC",true,23.2]
