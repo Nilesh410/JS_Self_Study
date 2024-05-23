@@ -28,11 +28,18 @@ console.log(obj);
 // console.log(obj.fullname);
 // console.log(obj.info())
 
-obj.gender="Male";
-console.log(obj);
-obj={
-    country:"india",
-    state:"maharashtra"
+// obj.gender="Male";
+// console.log(obj);
+// obj={
+//     country:"india",
+//     state:"maharashtra"
 
-} //shows error due to reassign the constant variable 
-console.log(obj)
+// } //shows error due to reassign the constant variable 
+// console.log(obj)
+
+//Object creation using constructor
+//const obj1=Object();
+const obj1=new Object();
+console.log(obj1)//show empty object 
+obj1.name="Nilesh Shirude"
+console.log(obj1)
