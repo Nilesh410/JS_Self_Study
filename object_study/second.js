@@ -20,3 +20,4 @@ const obj2={name:"Nilesh Shirude"}
 const obj3={...obj1,...obj2}
 console.log(obj3)
 
+console.log(obj3.hasOwnProperty("name"));
