@@ -10,37 +10,37 @@
   Que:- what is the first order function?
 */
 
-// function salaryCal1(salary)
-// {
-//     return salary*0.7
-// }
+/* function salaryCal1(salary)
+{
+    return salary*0.7
+}
 
-// // setTimeout(salaryCal(250000),1000)
+//setTimeout(salaryCal(250000),1000) //error due to access before initialization
+let salaryCal=(salary)=>
+{
+    return salary*0.7
+} */
 
-// let salaryCal=(salary)=>
-// {
-//     return salary*0.7
-// }
+//setTimeout(salaryCal,1000);
+/* setTimeout(()=>{console.log(salaryCal(250000))},1000)//175000
+setTimeout(()=>{console.log(salaryCal1(250000))},1000)//175000
 
-// //setTimeout(salaryCal,1000);
-// setTimeout(()=>{console.log(salaryCal(250000))},1000)//175000
-// setTimeout(()=>{console.log(salaryCal1(250000))},1000)//175000
-
-// setTimeout(function(){
-//     console.log(salaryCal1(270000))
-// },1000)
+setTimeout(function(){
+    console.log(salaryCal1(270000))
+},1000) */
 
 //Second Example
 
 let employeSalary=[50000,20000,25000,40000,70000]
-console.log(employeSalary);
+console.log("original array:",employeSalary);
 let result=employeSalary
             .filter((salary)=>{return salary>30000})
             .map((ele)=>{let finalsalary=(ele-(ele*0.10))
                          return finalsalary})
 
 
-console.log(result);
+console.log("result of filter and map:",result);
+console.log("original array:",employeSalary);
 let result1=employeSalary.map((ele)=>{
     let finalsalary
     if(ele>30000)
@@ -53,6 +53,7 @@ let result1=employeSalary.map((ele)=>{
     return finalsalary
 })
 
-console.log(result1)
+console.log(result1) 
 
 
+ 

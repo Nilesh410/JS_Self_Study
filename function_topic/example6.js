@@ -6,9 +6,10 @@ function reutrnfunc(message){
         return message+"Developer"
     }
 }
-reutrnfunc("NSS") //NSS 
-reutrnfunc("NSS")()//NSS 
-console.log(reutrnfunc("NSS")())//NSS NSSDeveloper
+// reutrnfunc("NSS") //NSS 
+// reutrnfunc("NSS")()//NSS 
+// console.log(reutrnfunc("NSS"))//NSS [Function (anonymous)]
+// console.log(reutrnfunc("NSS")())//NSS NSSDeveloper
 let result=reutrnfunc("NSS")
-console.log(result)//NSS function 
-console.log(result()) //NSSDeveloper
+//console.log(result)//NSS function 
+console.log(result()) //NSS NSSDeveloper
