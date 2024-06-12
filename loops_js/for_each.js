@@ -1,6 +1,7 @@
-//for each is inbuilt for loop as function for the array 
-//By using we can iterate in the loop and access indvidual ele
-//For each not only access the value also access the index and complete array
+/* for each is inbuilt for loop as function for the array 
+By using we can iterate in the loop and access indvidual ele
+For each not only access the value also access the index and complete array
+For each loop do not retrun anything if tried to write return still they do not return anything */
 
 const coding_lang=["C","C++","JAVA","JS","Pyhong","Ruby"]
 
