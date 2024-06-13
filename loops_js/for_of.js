@@ -34,7 +34,7 @@ for (const iterator of str) {
     KA:"Karnataka"
 }
 for (const iterator of obj) {
-    console.log(iterator) //object is not iterable 
+    console.log(iterator) //for of does not work for object 
 } */
 
 const company=new Map();
