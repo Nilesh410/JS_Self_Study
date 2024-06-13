@@ -17,3 +17,5 @@ console.log(output.trim())
 arr.forEach((ele)=>{
     process.stdout.write(ele+" ") //this works for only node js environment not for browser environment
 })
+
+
