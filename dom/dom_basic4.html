@@ -12,6 +12,7 @@
     </div>
 </body>
 <script>
+    //Add an Element in DOM 
     function addLanguage(language_name)
     {
         const lang_li=document.createElement('li');
@@ -21,5 +22,13 @@
    addLanguage("C++");
    addLanguage("JAVA");
    addLanguage("JAVAScript");
+
+   //Edit the Element
+   const secondLanguage=document.querySelector("li:nth-child(2)");
+   const new_li=document.createElement('li');
+   new_li.textContent="Mojo";
+   secondLanguage.replaceWith(new_li);
+
+   
 </script>
 </html>
