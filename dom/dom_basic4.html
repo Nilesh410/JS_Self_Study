@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to add, remove and edit the element in DOM </title>
+</head>
+<body style="background-color:black;color:white">
+    <div class="languages">
+        <li>C</li>
+    </div>
+</body>
+<script>
+    function addLanguage(language_name)
+    {
+        const lang_li=document.createElement('li');
+        lang_li.appendChild(document.createTextNode(language_name));
+        document.querySelector('.languages').appendChild(lang_li);
+    }
+   addLanguage("C++");
+   addLanguage("JAVA");
+   addLanguage("JAVAScript");
+</script>
+</html>
