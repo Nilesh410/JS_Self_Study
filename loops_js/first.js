@@ -10,7 +10,7 @@ for (let index = 0; index < arr.length; index++) {
     }
     console.log(`array element at index ${index}=${element}`)
 }
-for (let index = 0; index < arr.length; index++) {
+/* for (let index = 0; index < arr.length; index++) {
     const element = arr[index];
     
     if(element==="GOA")
@@ -19,4 +19,4 @@ for (let index = 0; index < arr.length; index++) {
        
     }
     console.log(`array element at index ${index}=${element}`)
-}
+} */
